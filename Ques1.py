@@ -7,6 +7,6 @@ def Add(a,b):
     if a+b>=150:
         return a+b
     else:
-        raise MyException('Result is not greater than 150')
+        raise MyException('Custom Error Occured')
 re = Add(30,40)
 print('Result is',re)
